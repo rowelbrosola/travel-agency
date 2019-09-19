@@ -6,13 +6,17 @@
  */
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
 import messages from './messages';
+
+// Components
+import Carousel from 'components/Carousel'
+import Services from 'components/Services'
 
 export default function HomePage() {
   return (
-    <h1>
-      <FormattedMessage {...messages.header} />
-    </h1>
+  	<div>
+	    <Carousel />
+	    <Services />
+  	</div>
   );
 }

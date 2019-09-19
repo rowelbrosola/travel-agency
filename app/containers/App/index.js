@@ -15,9 +15,13 @@ import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 import GlobalStyle from '../../global-styles';
 
+// Components
+import Header from 'components/Header'
+
 export default function App() {
   return (
     <div>
+      <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route component={NotFoundPage} />

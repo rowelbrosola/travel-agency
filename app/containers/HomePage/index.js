@@ -11,12 +11,14 @@ import messages from './messages';
 // Components
 import Carousel from 'components/Carousel'
 import Services from 'components/Services'
+import Featured from 'components/Featured'
 
 export default function HomePage() {
   return (
   	<div>
 	    <Carousel />
 	    <Services />
+	    <Featured />
   	</div>
   );
 }

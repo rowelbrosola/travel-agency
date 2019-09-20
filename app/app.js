@@ -34,6 +34,11 @@ import '!file-loader?name=[name].[ext]!./images/Slider6.jpg'
 import '!file-loader?name=[name].[ext]!./images/image-plane.png'
 import '!file-loader?name=[name].[ext]!./images/image-hotel.png'
 import '!file-loader?name=[name].[ext]!./images/image-globe.png'
+import '!file-loader?name=[name].[ext]!./images/canmore-cave.jpg'
+import '!file-loader?name=[name].[ext]!./images/canmore-mountains.jpg'
+import '!file-loader?name=[name].[ext]!./images/canmore-mountains-1.jpg'
+import '!file-loader?name=[name].[ext]!./images/johnson-canyon.jpg'
+import '!file-loader?name=[name].[ext]!./images/okotoks.jpg'
 import 'file-loader?name=.htaccess!./.htaccess';
 /* eslint-enable import/no-unresolved, import/extensions */
 

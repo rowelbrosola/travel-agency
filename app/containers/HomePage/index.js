@@ -12,6 +12,7 @@ import messages from './messages';
 import Carousel from 'components/Carousel'
 import Services from 'components/Services'
 import Featured from 'components/Featured'
+import Partners from 'components/Partners'
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
 	    <Carousel />
 	    <Services />
 	    <Featured />
+	    <Partners />
   	</div>
   );
 }

@@ -16,11 +16,15 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 
 const MainServices = styled.div`
+	background: #fff;
 	text-align: center;
 	& h1 {
+		margin-top: 0px;
 		font-size: 50px;
-		font-weight: bold;
+		line-height: 3;
+		letter-spacing: 0.2em;
 		text-transform: uppercase;
+		font-family: 'Rubik Mono One', sans-serif;
 	}
 	& .col {
 		margin-bottom: 20px;

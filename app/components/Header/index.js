@@ -41,9 +41,9 @@ function Header() {
 				  <Navbar.Collapse id="basic-navbar-nav">
 				    <Nav className="ml-auto">
 				      <Nav.Link href="/">Home</Nav.Link>
-				      <Nav.Link href="/">Adventures</Nav.Link>
-				      <Nav.Link href="/">Booking</Nav.Link>
-				      <Nav.Link href="/">International</Nav.Link>
+				      <Nav.Link href="/adventures">Adventures</Nav.Link>
+				      <Nav.Link href="/booking">Booking</Nav.Link>
+				      <Nav.Link href="/international">International</Nav.Link>
 				      <Nav.Link href="/#contact-form">Contact</Nav.Link>
 				    </Nav>
 				  </Navbar.Collapse>

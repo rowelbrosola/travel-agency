@@ -19,12 +19,13 @@ const MainServices = styled.div`
 	background: #fff;
 	text-align: center;
 	& h1 {
-		margin-top: 0px;
+		margin: 0px;
 		font-size: 50px;
 		line-height: 3;
 		letter-spacing: 0.2em;
 		text-transform: uppercase;
-		font-family: 'Rubik Mono One', sans-serif;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: bold;
 	}
 	& .col {
 		margin-bottom: 20px;

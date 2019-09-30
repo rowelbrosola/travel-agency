@@ -13,6 +13,7 @@ import Carousel from 'components/Carousel'
 import Services from 'components/Services'
 import Featured from 'components/Featured'
 import Partners from 'components/Partners'
+import Testimonials from 'components/Testimonials'
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
 	    <Services />
 	    <Featured />
 	    <Partners />
+	    <Testimonials />
   	</div>
   );
 }

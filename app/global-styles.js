@@ -18,11 +18,6 @@ const GlobalStyle = createGlobalStyle`
   #app {
     min-height: 100%;
     min-width: 100%;
-    background-image: url("app-background.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   p,

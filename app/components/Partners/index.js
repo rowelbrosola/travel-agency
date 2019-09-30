@@ -9,17 +9,23 @@ import React, { memo } from 'react';
 import styled from 'styled-components';
 
 const MainPartners = styled.div`
- & div:first-of-type {
-	text-align: center;
+	background-image: url("app-background.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	& div:first-of-type {
+		text-align: center;
 	& h1 {
-		margin-top: 0px;
+		margin: 0px;
 		color: #086080;
 		font-size: 50px;
 		font-weight: bold;
-		line-height: 4;
+		line-height: 3;
 		letter-spacing: 0.2em;
 		text-transform: uppercase;
-		font-family: 'Rubik Mono One', sans-serif;
+		font-family: 'Work Sans', sans-serif;
+		font-weight: bold;
 	}
 	& div {
 		display: inline-block;

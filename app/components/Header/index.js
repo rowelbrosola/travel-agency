@@ -5,6 +5,7 @@
  */
 
 import React, { memo } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 // import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
@@ -43,7 +44,7 @@ function Header() {
 				      <Nav.Link href="/">Adventures</Nav.Link>
 				      <Nav.Link href="/">Booking</Nav.Link>
 				      <Nav.Link href="/">International</Nav.Link>
-				      <Nav.Link href="/">Contact</Nav.Link>
+				      <Nav.Link href="/#contact-form">Contact</Nav.Link>
 				    </Nav>
 				  </Navbar.Collapse>
 				</Navbar>

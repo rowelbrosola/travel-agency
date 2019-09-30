@@ -36,10 +36,15 @@ const MainContact = styled.div`
 				margin-bottom: 0px;
 			}
 		}
+		& .copyright {
+			text-align: center;
+			width: 100%;
+			line-height: 5;
+		}
 	}
 	& div.contact-fields {
 		background: #fff;
-		padding: 10px 20px;
+		padding: 20px;
 		margin-top: 10%;
 		& h1 {
 			text-transform: none;
@@ -60,7 +65,7 @@ const MainContact = styled.div`
 
 function Contact() {
   return (
-    <MainContact>
+    <MainContact id="contact-form">
 	    <Row>
 	   		<Col lg={6}>
 	   			<div className="contact">
@@ -133,6 +138,9 @@ function Contact() {
 	            </Form>
 		    	</div>
 	    	</Col>
+		    <div className="copyright">
+		    	© 2019 by Beyond The Travel
+		    </div>
 	    </Row>
     </MainContact>
   );

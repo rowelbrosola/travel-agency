@@ -14,6 +14,7 @@ import Services from 'components/Services'
 import Featured from 'components/Featured'
 import Partners from 'components/Partners'
 import Testimonials from 'components/Testimonials'
+import Contact from 'components/Contact'
 
 export default function HomePage() {
   return (
@@ -23,6 +24,7 @@ export default function HomePage() {
 	    <Featured />
 	    <Partners />
 	    <Testimonials />
+	    <Contact />
   	</div>
   );
 }

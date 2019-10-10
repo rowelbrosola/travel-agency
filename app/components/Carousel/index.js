@@ -13,7 +13,7 @@ import { Carousel as Slider } from 'react-bootstrap'
 
 const MainSlider = styled.div`
 		& img {
-			height: 600px;
+			height: auto;
 		}
 `
 
